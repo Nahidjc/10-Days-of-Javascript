@@ -33,7 +33,7 @@ function regexVar() {
     /*
      * Do not remove the return statement
      */
-    let re = /^(Mr|Mrs|Ms|Dr|Er)\.+[A-Za-z]/;
+    let re = /^(Mr|Mrs|Ms|Dr|Er)\.[A-Za-z]+$/;
     return re;
 }
 
